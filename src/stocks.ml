@@ -8,7 +8,7 @@ exception NoSuchStock of string
 let base_url = "https://api.polygon.io"
 
 (** Private, personal key for our team. Max calls per min = 5*)
-let api_key = "jn_NAmtAD16hk6azpunzVK1TEvKiu5vy"
+let api_key = SECRET
 
 let get_ticker_price ticker =
   try
