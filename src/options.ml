@@ -8,7 +8,7 @@ exception NoSuchOption of string
 (** Private URL.*)
 let base_url = "https://api.polygon.io"
  (** Private API key.*)
-let api_key = "jn_NAmtAD16hk6azpunzVK1TEvKiu5vy"
+let api_key = SECRET
 
 let get_option_contract ticker =
   try
